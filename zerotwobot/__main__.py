@@ -76,12 +76,12 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-ZEROTWO_IMG = "https://telegra.ph/file/5b9bc54b0ae753bb1ec18.jpg"
+ZEROTWO_IMG = "https://telegra.ph/file/5f8bd4766e5cc25ce4349.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @kishoreee \
+DONATE_STRING = """ ನಿಮ್ಮ ಪ್ರೀತಿ ಹೀಗೆ ನನ್ನ ಮೇಲೆ ಸದಾ ಇರಲಿ
+ ನಿಮ್ಮ ಸಪೋರ್ಟ್ ಮಾಡಲು ಬಯಸಿದರೆ ಈ ಯೂಸರ್ ನೇಮ್ ಗೆ ಮೆಸೇಜ್ ಮಾಡಿ @Mr_Agora \
  Supporting isn't always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at @blackbulls_support."""
+ Those who cannot provide monetary support are welcome to help us develop the bot at @ganchali_bidi_kannada_mathadi."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -164,30 +164,30 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     And the following:
     """.format(
         context.bot.first_name,
-        "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
+        "" if not ALLOW_EXCL else "\nಬೋಟ್ ನ ಎಲ್ಲಾ ವರ್ತನೆಗಳು / or !.\n",
     )
 
     buttons = [
         [
             InlineKeyboardButton(
-                text="Add to Group",
+                text="ನಿಮ್ಮ ಗ್ರೂಪ್ ಗೆ ಸೇರಿಸಿ",
                 url=f"https://t.me/{context.bot.username}?startgroup=True",
             ),
         ],
         [
             InlineKeyboardButton(
-                "Support Group",
-                "https://t.me/blackbulls_support",
+                "ನಮ್ಮ ಕರ್ನಾಟಕ",
+                "https://t.me/ganchali_bidi_kannada_mathadi",
             ),
             InlineKeyboardButton(
-                "Announcements",
-                "https://t.me/blackbull_bots"
+                "ಸಂದೇಶಗಳು",
+                "https://t.me/naaan_kannadiga"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="Source Code",
-                url="https://github.com/Black-Bulls-Bots/zerotwobot"
+                text="ಮಾಲೀಕರು",
+                url="https://t.me/KannadigaXD"
             )
         ]
     ]
