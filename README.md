@@ -1,4 +1,6 @@
-![Zero (https://telegra.ph/file/5f8bd4766e5cc25ce4349.jpg)
+[![ಕನ್ನಡಿಗ ರೋಬೋಟ್ 🤖]([https://telegra.ph/file/2dfd3e6d9007aabffad92.jpg]))](https://github.com/MR-AGORA/Kannadigabot)
+
+[Zero ()
 
 <center>
   <h1> 
