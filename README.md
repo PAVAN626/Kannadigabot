@@ -1,4 +1,4 @@
-[![ಕನ್ನಡಿಗ ರೋಬೋಟ್ 🤖]([https://telegra.ph/file/2dfd3e6d9007aabffad92.jpg]))](https://github.com/MR-AGORA/Kannadigabot)
+[![ಕನ್ನಡಿಗ ರೋಬೋಟ್ 🤖](https://telegra.ph/file/2dfd3e6d9007aabffad92.jpg)]
 
 [Zero ()
 
