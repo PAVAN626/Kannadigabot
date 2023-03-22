@@ -181,7 +181,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
             ),
             InlineKeyboardButton(
                 "ಸಂದೇಶಗಳು",
-                "https://t.me/naaan_kannadiga"
+                "https://t.me/kannadigaXd"
             ),
         ],
         [
@@ -228,21 +228,21 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
             await update.effective_message.reply_photo(
                 ZEROTWO_IMG,
                 caption=escape_markdown(f"""                
-                Hey There {first_name}. \
-                \nI'm {context.bot.first_name}, made specifically to manage your group and have more fun than ever. \
-                \nType /help to get available commands. \
+                ದೋಸ್ತ {first_name}. \
+                \nI'm {context.bot.first_name}, ಕರ್ನಾಟಕದ ಮೊಟ್ಲ ಮೊದ್ಲ ಗ್ರೂಪ್ ಮ್ಯಾನೇಜರ್ ಬೋಟ್ ಇದು   . \
+                \nType /help ಅಂತ ಟೈಪ್ ಮಾಡಿ ಎಲ್ಲಾ ಪ್ಲಗಿನ್ಸಸಗಾಗಿ. \
 
-                \nVersion info: \
-                \nI'm running on v{BOT_VERSION} \
-                \nPython: {PYTHON_VERSION} \
+                \nನನ್ನ ಯೌವನ: \
+                \nನಾನು ಇರುವುದು v{BOT_VERSION} \
+                \nವೆಬ್ಸೈಟ್: {PYTHON_VERSION} \
                 \nPTB: {PTB_VERSION} \
-                \nBOT_API: {BOT_API_VERSION}"""),
+                \nಬೋಟ್: {BOT_API_VERSION}"""),
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(buttons)
             )
     else:
         await update.effective_message.reply_text(
-            "I'm running successfully on v{}\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            "ನಾನು ಚೆನ್ನಾಗಿದ್ದೇನೆ v{}\n<b>ವಿಶ್ರಾಂತಿಯ ಸಮಯ:</b> <code>{}</code>".format(
                 BOT_VERSION,uptime,
             ),
             parse_mode=ParseMode.HTML,
@@ -250,12 +250,12 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Support",
-                            url="https://t.me/blackbulls_support",
+                            text="ನಮ್ಮ ಕರ್ನಾಟಕ",
+                            url="https://t.me/ganchali_bidi_kannada_mathadi",
                         ),
                         InlineKeyboardButton(
-                            text=str("Announcement's"),
-                            url="https://t.me/blackbull_bots",
+                            text=str("ಮಾಲೀಕರು"),
+                            url="https://t.me/kannadigaxd",
                         ),
                     ],
                 ],
