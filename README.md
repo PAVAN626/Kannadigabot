@@ -23,9 +23,7 @@ Zero Two is a powerful and modular telegram group management bot built using pyt
 
 ## deploy
 
-<b>Deply to Heroku</b>
-<p><a href="https://heroku.com/deploy?template=https://github.com/MR-AGORA/Kannadigabot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="200""/></a></p>
-</pre>
+<a href="https://dashboard.heroku.com/new?template=https://github.com/MR-AGORA/Kannadigabot"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 ## 🔎 FAQ
 
